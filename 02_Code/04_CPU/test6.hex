@@ -1,0 +1,13 @@
+;
+; Output the count.
+;
+.ORIG X000
+OUTPUT	LD	R0, ASCII	; Load the ASCII template
+	ADD	R0, R0, R2	; Covert binary count to ASCII
+	OUT		        ; ASCII code in R0 is displayed.
+;
+; Storage for pointer and ASCII template
+;
+ASCII	.FILL	x0030	; ASCII offset
+PTR	.FILL	x4000	; PTR to character file
+	.END

@@ -1,0 +1,11 @@
+//Symbol Name		Page Address
+//----------------	------------
+//	ASCII                   000C
+//	Counter                 000B
+//	Enable                  000A
+//	Int81                   0009
+//	Loop                    0006
+//	SaveR0                  007E
+//	SaveR4                  007F
+//	Stack                   0071
+//	TimeSub                 0072
